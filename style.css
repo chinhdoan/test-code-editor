@@ -1,0 +1,577 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+html{
+  overflow-x:hidden;
+}
+
+a:hover{
+	color: black;
+}
+.container{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 50% 50%;
+	margin: left;
+
+
+}
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+.bg{
+	width: 100%;
+	height: 90vh;
+	background:  url(1/img/Logo/11.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	font-family: Tahoma;
+
+
+}
+.bg{
+	width: 100%;
+	height: 90vh;
+	background:  url(1/img/Logo/11.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+
+
+}
+
+// Colors
+$bg-color: #232B2B;
+$selector-color: #c7d3de;
+$property-color: #99c791;
+$value-color: #bf94c0;
+
+* {
+  box-sizing: border-box;
+}
+
+
+.code {
+  background: grey;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  border-left: 6px solid lighten(pink, 20%);
+  width: 90%;
+  height: 40%;
+  margin: 50px auto;
+  white-space: pre-wrap; 
+  padding: 50px 20px 20px 50px;
+  color: black;
+  counter-reset: step;
+  counter-increment: step 0;
+  position: relative;
+  .l {
+    line-height: 1.4em;
+    &:before {
+      color: lighten(#97FFFF, 20%);
+      position: absolute;
+      left: 15px;
+      content: counter(step);
+      counter-increment: step;
+    }
+  }
+}
+
+.selector {
+  color: #97FFFF;
+}
+.property {
+  color: #97FFFF;
+}
+.value {
+  color: #97FFFF;
+}
+
+
+p{
+  margin-left:10px;
+  counter-reset : set-up;
+}
+
+.huu{
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+  width:  700px;
+  overflow:auto;
+  height:200px;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 30px;
+  border-radius: 10px;
+  font-size:1rem;
+	border: 1px solid #aaaaaa;
+}
+.test{
+  color:rgb(202, 38, 38)
+}
+.hii{
+  content:'output:';
+  width: 90%;
+  left:0;
+  margin-left:15px;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 30px;
+  border-radius: 10px;
+  height:20px;
+	border: 1px solid #aaaaaa;
+  /* background-color: rgba(255, 255, 255, 0.163); */
+}
+
+.ha{
+  counter-reset: line;
+  display:flex;
+  flex-direction:column;
+  left:0;
+  margin-left:20px;
+  background-color: white;
+  width:  700px;
+  overflow:auto;
+  height:200px;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 30px;
+  border-radius: 10px;
+  font-size:1rem;
+	border: 1px solid #aaaaaa;
+}
+
+#jsEditor{
+  margin-top:10px;
+  margin-left:20px;
+  height:300px;
+}
+.source {
+	width: 100%;
+	height: 90vh;
+	background color:  red;
+}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container {
+    position: fixed;
+  left: 80%;
+  right: 20%;
+  top: 30%;
+}
+ 
+.button_container p {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 20px 100px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container1 {
+    position: fixed;
+  left: 80%;
+  right: 20%;
+  top: 50%;
+}
+ 
+.button_container1 p {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn1 {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 20px 100px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn1 span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn1:after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: red;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn1:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container2 {
+    position: fixed;
+  left: 80%;
+  right: 20%;
+  top: 70%;
+}
+ 
+.button_container2 p {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn2 {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 20px 85px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn2 span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn2:after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: green;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn2:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container3 {
+    position: fixed;
+  left: 1.5%;
+  right: 98.5%;
+  top: 6%;
+}
+ 
+.button_container3  {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn3 {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #222;
+  padding: 4px 50px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn3 span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn3:after {
+  content: "";
+  position: absolute;
+  left: 7%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: red;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn3:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container4 {
+    position: fixed;
+  left: 13%;
+  right: 87%;
+  top: 6%;
+}
+ 
+.button_container4 {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn4 {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #222;
+  padding: 9px 40px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn4 span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn4:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #00EE00;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn4:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ 
+body {
+    margin: left;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.button_container5 {
+    position: fixed;
+  left: 22.8%;
+  right: 77.2%;
+  top: 6.2%;
+}
+ 
+.button_container5 p {
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 35px;
+}
+ 
+.btn5 {
+  border: none;
+  display: block;
+  text-align: top;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #222;
+  padding: 8.5px 50px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+ 
+.btn5 span {
+  position: relative; 
+  z-index: 1;
+}
+ 
+.btn5:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #DDDDDD;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+ 
+.btn5:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+p{
+  counter-reset : set-up;
+}
+textarea{
+  counter-increment : set-up;
+  content: counter(set-up);
+}
